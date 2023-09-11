@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reed Realm</title>
+
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <!-- navigation section -->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark my-bg">
+      <div class="container-fluid px-lg-5 py-1">
+        <img class="navbar-brand" src="./images/favicon.ico" alt="">
+
+        <button class="navbar-toggler border-4 border-white" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-underline ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-bolder" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-bolder" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-bolder" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white text-uppercase fw-bolder" href="#work">Work</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- home section -->
+  <section id="home">
+    <div id="home-con" class="position-relative mb-5">
+      <img id="bg-img" class="object-fit-cover w-100 h-100" src="./images/bg-img.jpg" alt="coding image">
+
+      <div id="profile-con"
+        class="container-fluid d-flex align-items-center justify-content-center gap-5 flex-column flex-lg-row position-absolute top-0 start-0 h-100">
+        <img id="profile-img" class="img-fluid rounded-circle" src="./images/profile2.jpg" alt="Reed's picture">
+        <div class="text-light">
+          <h1 class="display-1">I'm Reed,</h1>
+          <h2 class="fw-bold ps-5 display-6">a <span class="text-decoration-underline">pro</span>grammer.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about">
+    <div class="container-md my-max-wd lead my-5 text-justify">
+      <p>
+        I'm Reed, a Python and Web Developer, a former Marine engineer, with a passion
+        for crafting dynamic and user-friendly web applications. With a strong
+        background in a variety of programming languages and technologies, I bring a
+        unique perspective and set of skills to each project I work on.
+      </p>
+      <p class="m-0">
+        In my free time, I'm an avid reader and enjoy losing myself in a good book. I
+        also have a passion for baking and love experimenting with new recipes in the
+        kitchen. These hobbies have given me a well-rounded perspective and help me
+        approach each challenge with a creative and problem-solving mindset. Whether
+        working on a project or whipping up a batch of cookies, I'm always striving to
+        bring my best effort and attention to detail.
+      </p>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- skills section -->
+  <section id="skills">
+    <div class="container-md my-max-wd p-3 text-center">
+      <h3 class="mb-5 fw-bold h1">Proficiency</h3>
+
+      <div class="row row-cols-2 row-cols-md-3 g-3">
+        <div class="col">
+          <img class="icon-size" src="./images/python.png" alt="python icon">
+        </div>
+        <div class="col">
+          <img class="icon-size" src="./images/js.png" alt="javascript icon">
+        </div>
+        <div class="col">
+          <img class="icon-size" src="./images/dj.jpg" alt="django icon">
+        </div>
+        <div class="col">
+          <img class="icon-size" src="./images/html.png" alt="html icon">
+        </div>
+        <div class="col">
+          <img class="icon-size" src="./images/css.png" alt="css icon">
+        </div>
+        <div class="col">
+          <img class="icon-size" src="./images/bootstrap.png" alt="bootstrap icon">
+        </div>
+      </div>
+
+      <div class="row my-5 flex-column flex-md-row">
+        <img class="gif" src="https://i.giphy.com/media/2dc1gzVAVKeBPXFuiI/200w.webp" alt="web development gif">
+        <div class="col text-start mt-4 mt-md-0">
+          <h4 class="fw-bold h2">Web Development</h4>
+          <p class="text-justify">
+            As a skilled and innovative web developer, I excel in both front-end and
+            back-end development, creating captivating user interfaces and building
+            robust web applications. With a keen eye for detail and a collaborative
+            spirit, I deliver projects efficiently while maintaining top-notch quality,
+            making me the ideal choice for your next digital venture.
+          </p>
+        </div>
+      </div>
+      <div class="row my-5 flex-column-reverse flex-md-row">
+        <div class="col text-start mt-4 mt-md-0">
+          <h4 class="fw-bold h2">Python Development</h4>
+          <p class="text-justify">
+            With a comprehensive command over Python, I build powerful web applications
+            using Django and Flask. From data analysis to automation, my expertise
+            delivers diverse, high-quality solutions. Passionate about problem-solving,
+            I'm primed to tackle any Python development project with precision.
+          </p>
+        </div>
+        <img class="gif" src="https://i.giphy.com/media/KAq5w47R9rmTuvWOWa/giphy.webp" alt="python development gif">
+      </div>
+      <div class="row mt-5 flex-column flex-md-row">
+        <img class="gif" src="https://i.giphy.com/media/E1LNza0pgvf6WXv88B/giphy.webp" alt="fried chicken gif">
+        <div class="col text-start mt-4 mt-md-0">
+          <h4 class="fw-bold h2">Fried Chicken</h4>
+          <p class="text-justify">But my true expertise lies in eating fried chickens. They are the best!</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- work section -->
+  <section id="work">
+    <div class="container-md my-max-wd my-5 text-center">
+      <h3 class="mb-4 fw-bold h1">Work</h3>
+
+      <div id="myCarousel" class="carousel slide mb-6 my-bg-linear py-5 rounded-4">
+        <!-- carousel indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+            class=""></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active"
+            aria-current="true"></button>
+        </div>
+
+        <!-- carousel items -->
+        <div class="carousel-inner slide-height">
+          <div class="carousel-item">
+            <img class="bd-placeholder-img w-75 slide-img-height rounded-4"
+              src="https://i.giphy.com/media/3o6nUWMOy2XHLYrVbG/giphy.webp" alt="marine engineering gif"
+              aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="container">
+              <div class="carousel-caption position-static d-flex flex-column align-items-center">
+                <h4 class="mb-4 fw-bold">Marine Engineering</h4>
+                <p class="w-75">From 2014 to 2019, I worked as a Marine Engineer at K Line, one of the biggest
+                  shipowners in the
+                  world based on Japan. During my time there, I honed my skills in the marine engineering field and
+                  gained valuable experience in the industry.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item slide-height">
+            <img class="bd-placeholder-img w-75 slide-img-height rounded-4"
+              src="https://i.giphy.com/media/14aVj10D1TwHu0/200.webp" alt="school gif" aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="container">
+              <div class="carousel-caption position-static d-flex flex-column align-items-center">
+                <h4 class="mb-4 fw-bold">TradersHub</h4>
+                <p class="w-75">From 2019 to late 2020, I co-founded and worked at TradersHub, a training center where
+                  we teach our
+                  students how to analyze the market and trade. Unfortunately, the company had to close due to the
+                  impacts of the COVID-19 pandemic.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item active slide-height">
+            <img class="bd-placeholder-img w-75 slide-img-height rounded-4"
+              src="https://i.giphy.com/media/scZPhLqaVOM1qG4lT9/giphy.webp" alt="programming gif" aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <div class="container">
+              <div class="carousel-caption position-static d-flex flex-column align-items-center">
+                <h4 class="mb-4 fw-bold">Programming</h4>
+                <p class="w-75">Since 2023, I have been working as a freelance Python and web developer, utilizing my
+                  skills and expertise to help clients bring their digital visions to life. Whether you're looking to
+                  build a new web application or enhance an existing one, I'm confident in my ability to provide you
+                  with the results you're looking for.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- carousel buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- favourite quotes section -->
+  <section>
+    <div class="container-md my-max-wd my-5 text-center">
+      <h3 class="mb-4 fw-bold h1">Favourite Quotes</h3>
+      <div class="row row-cols-sm-2 row-cols-lg-4 g-1">
+        <img class="quote-img-height hover nohover" src="./images/q1.jpg" alt="quote image">
+        <img class="quote-img-height hover nohover" src="./images/q2.jpg" alt="quote image">
+        <img class="quote-img-height hover nohover" src="./images/q3.jpg" alt="quote image">
+        <img class="quote-img-height hover nohover" src="./images/q4.jpg" alt="quote image">
+        <img class="quote-img-height hover nohover" src="./images/q5.jpg" alt="quote image">
+        <img class="quote-img-height hover nohover" src="./images/q6.jpg" alt="quote image">
+        <img class="quote-img-height hover nohover hide" src="./images/q7.jpg" alt="quote image">
+        <img class="quote-img-height hover nohover hide" src="./images/q8.jpg" alt="quote image">
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer id="footer" class="my-bg">
+    <div class="container-md my-max-wd text-center text-light py-4">
+      <h4 class="mb-5">If you love fried chicken as much as I do. Get in touch.</h4>
+      <ul class="list-unstyled d-flex align-items-center justify-content-center my-4">
+        <li><a class="fa-brands fa-instagram mx-3 fs-2 link-light link-underline-opacity-0"
+            href="https://www.instagram.com/reedtorz/"></a></li>
+        <li><a class="fa-brands fa-square-x-twitter mx-3 fs-2 link-light link-underline-opacity-0"
+            href="https://twitter.com/ReedTorralba"></a></li>
+        <li><a class="fa-brands fa-square-facebook mx-3 fs-2 link-light link-underline-opacity-0"
+            href="https://www.facebook.com/arfeloreed/"></a></li>
+        <li><a class="fa-brands fa-linkedin mx-3 fs-2 link-light link-underline-opacity-0"
+            href="https://www.linkedin.com/in/arfeloreed/"></a></li>
+        <li><a class="fa-brands fa-square-github mx-3 fs-2 link-light link-underline-opacity-0"
+            href="https://github.com/mr-fravardin"></a></li>
+      </ul>
+      <p class="mb-0">© 2023 Arfelo Reed @ <a
+          class="link-light link-underline-opacity-0 link-underline-opacity-100-hover link-offset-2-hover"
+          href="">ReedRealm.com</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8f29d78dc3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
